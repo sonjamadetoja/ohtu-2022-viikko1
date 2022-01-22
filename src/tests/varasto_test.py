@@ -82,7 +82,7 @@ class TestVarasto(unittest.TestCase):
 
         saatu_maara = self.varasto.ota_varastosta(-10)
 
-        self.assertAlmostEqual(saatu_maara, 1)
+        self.assertAlmostEqual(saatu_maara, 0)
 
     def test_string(self):
 
