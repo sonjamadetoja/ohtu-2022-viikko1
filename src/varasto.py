@@ -11,7 +11,6 @@ class Varasto:
         else:
             # täyteen ja ylimäärä hukkaan!
             self.saldo = tilavuus
-        print("Tämä rivi on lisätty tänne testaamaan pylintin sääntö, jonka mukaan rivin pituus voi olla korkeintaan 110 merkkiä.")
 
     # huom: ominaisuus voidaan myös laskea. Ei tarvita erillistä kenttää viela_tilaa tms.
     def paljonko_mahtuu(self):
